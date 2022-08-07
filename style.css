@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-color: #344e41;
+  perspective: 10px;
+  transform-style: presere-3d;
+}
+
+.parallax{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+}
+
+.parallax a{
+  align-self: center;
+  text-align: center;
+  border-radius: 30px;
+  background: #dad7cd;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  height: 30px;
+  color: #344e41;
+  font-weight: bold;
+  padding-top: 2px;
+  transition: .2s;
+}
+.parallax a:hover{
+  filter: drop-shadow(0px 1px 5px #303030);
+  transform: scale(1.2);
+}
+
+.base4,
+.base3,
+.base2,
+.base1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero h1{
+  color: #dad7cd;
+  font-size: 50px;
+  padding-bottom: 200px;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 10px;
+  background-color: #344e41;
+
+}
+.logo{
+  font-size: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #dad7cd;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px  10px;
+}
+nav ul li a{
+  color: #dad7cd;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 15px;
+  position:sticky;
+}
+nav ul li a:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+.search-txt{
+  border-radius: 30px;
+  background: #dad7cd;
+  border: none;
+  padding-left: 10px;
+  text-decoration: none;
+  height: 30px;
+
+}
+.tentang{
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  transform-style: preserve-3d;
+  z-index: -1;
+  background-color: #dad7cd;
+}
+
+.tentangkami p{
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+  color: #344e41;
+  opacity: 60%;
+}
+.tentangkami img{
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.tentangkami{
+  justify-content: center;
+  background-color: #dad7cd;
+  align-items: center;
+}
+
+.tentangkami h2{
+  color: #344e41;
+  font-size: 50px;
+  padding-top: 200px;
+  text-align: center;
+}
+.tentangkami h4{
+  color: #3a5a40;
+  font-size: 10;
+  text-align: center;
+}
+
+.jasa{
+  width: 100%;
+  height: 120vh;
+  background-color: #dad7cd;
+  justify-content: center;
+  align-items: center;
+  position: flex;
+}
+
+.jasa h2{
+  color: #344e41;
+  font-size: 50px;
+  padding-top: 200px;
+  text-align: center;
+}
+.jasa h4{
+  color: #3a5a40;
+  font-size: 10;
+  text-align: center;
+}
+
+.gatau a{
+  width: 200px;
+  height: 250px;
+  background-color: #dad7cd;
+  padding-left: 5px;
+  padding-right: 20px;
+  border-radius: 20px;
+  transition: .4s;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.gatau a:hover{
+  transform: scale(1.2);
+  filter: drop-shadow(0px 10px 10px #606060);
+
+}
+
+.gatau{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 10px;
+  background-color: #dad7cd;
+  width: 100%;
+}
+
+
+
+.benihpng{
+  width: 50%;
+  padding-top: 15%;
+}
+
+.benih{
+  text-align: center;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benih h1{
+  font-size: 20px;
+  color: #354e41;
+}
+
+.benih h4{
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+  opacity: 80%;
+  font-weight: normal;
+}
+
+
+
+.pupukpng{
+  width: 50%;
+  padding-top: 15%;
+}
+
+.pupuk{
+  text-align: center;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pupuk h1{
+  font-size: 20px;
+  color: #354e41;
+}
+
+.pupuk h4{
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+  opacity: 80%;
+  font-weight: normal;
+}
+
+
+.alatpng{
+  width: 50%;
+  padding-top: 15%;
+}
+
+.alat{
+  text-align: center;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alat h1{
+  font-size: 20px;
+  color: #354e41;
+}
+
+.alat h4{
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+  opacity: 80%;
+  font-weight: normal;
+}
+
+
+.tanamanpng{
+  width: 50%;
+  padding-top: 15%;
+}
+
+.tanaman{
+  text-align: center;
+  list-style-type: none;
+
+}
+.tanaman h1{
+  font-size: 20px;
+  color: #354e41;
+}
+
+.tanaman h4{
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
+  opacity: 80%;
+  font-weight: normal;
+}
+
+.footer{
+  background-color: #354e41;
+  width: auto;
+  height: 22vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer h1{
+  padding-top: 15px;
+  color: #dad7cd;
+  font-weight: bold;
+}
+
+.footer h4{
+  color: #dad7cd;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.footer .beranda{
+  background-color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #354e41;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer .katalog{
+  text-decoration: none;
+  font-weight: bold;
+  color: #dad7cd;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  transition: .4s;
+}
+
+.footer .katalog:hover{
+  background-color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #354e41;
+}
+
+.footer p{
+  color: #dad7cd;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+
+.subs{
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #dad7cd;
+}
+
+.email{
+  width: 400px;
+  height: 30px;
+  background-color: #dad7cd;
+  border-color: #354e41;
+  border-style: solid;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.daftar{
+  background-color: #354e41;
+  color: #dad7cd;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.subs a{
+  text-decoration: none;
+  margin-left: 10px;
+}
